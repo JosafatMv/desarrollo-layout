@@ -96,6 +96,11 @@ const routes = [
 						'../components/tienda-productos-hogar/ProductosLimpieza.vue'
 					),
 			},
+			{
+				path: '/formulario',
+				name: 'formulario',
+				component: () => import('../components/Formulario.vue'),
+			},
 		],
 	},
 	// {

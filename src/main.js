@@ -11,10 +11,16 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 import router from './router/index';
 
+import Vuelidate from 'vuelidate'
+
+
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue);
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin);
+
+Vue.use(Vuelidate)
+
 
 new Vue({
 	router,
